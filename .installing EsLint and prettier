@@ -1,0 +1,7 @@
+1. ng add @angular-eslint/schematics
+2. npm install prettier --save-dev
+3. npm install prettier-eslint eslint-config-prettier eslint-plugin-prettier --save-dev
+4. in eslint.config.js add 
+    - const eslintPluginPrettierRecommended = require('eslint-plugin-prettier/recommended')
+    - eslintPluginPrettierRecommended (add at the end)
+5. Install EsLint Plugin
